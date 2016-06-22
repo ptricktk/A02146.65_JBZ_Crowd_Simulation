@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 3d0a8354ae274b54f9d9498a13c314ae
+timeCreated: 1456905100
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Archmodels55_14_black
+    100004: Archmodels55_14_black2
+    100006: Archmodels55_14_carpaint
+    100008: Archmodels55_14_chrome2
+    100010: Archmodels55_14_front_details
+    100012: Archmodels55_14_glass
+    100014: Archmodels55_14_headlights_glass
+    100016: Archmodels55_14_headlights_glass 1
+    100018: Archmodels55_14_lights_black
+    100020: Archmodels55_14_lights_orange
+    100022: Archmodels55_14_mirrors
+    100024: Archmodels55_14_red_lights
+    100026: Archmodels55_14_seats
+    100028: Archmodels55_14_taillights_silver
+    100030: Archmodels55_14_Texts
+    100032: Archmodels55_14_texts_bg
+    100034: Archmodels55_14_tires
+    100036: Archmodels55_14_white_lights
+    100038: Archmodels55_14_yellow
+    400000: //RootNode
+    400002: Archmodels55_14_black
+    400004: Archmodels55_14_black2
+    400006: Archmodels55_14_carpaint
+    400008: Archmodels55_14_chrome2
+    400010: Archmodels55_14_front_details
+    400012: Archmodels55_14_glass
+    400014: Archmodels55_14_headlights_glass
+    400016: Archmodels55_14_headlights_glass 1
+    400018: Archmodels55_14_lights_black
+    400020: Archmodels55_14_lights_orange
+    400022: Archmodels55_14_mirrors
+    400024: Archmodels55_14_red_lights
+    400026: Archmodels55_14_seats
+    400028: Archmodels55_14_taillights_silver
+    400030: Archmodels55_14_Texts
+    400032: Archmodels55_14_texts_bg
+    400034: Archmodels55_14_tires
+    400036: Archmodels55_14_white_lights
+    400038: Archmodels55_14_yellow
+    2300000: Archmodels55_14_black
+    2300002: Archmodels55_14_black2
+    2300004: Archmodels55_14_carpaint
+    2300006: Archmodels55_14_chrome2
+    2300008: Archmodels55_14_front_details
+    2300010: Archmodels55_14_glass
+    2300012: Archmodels55_14_headlights_glass
+    2300014: Archmodels55_14_headlights_glass 1
+    2300016: Archmodels55_14_lights_black
+    2300018: Archmodels55_14_lights_orange
+    2300020: Archmodels55_14_mirrors
+    2300022: Archmodels55_14_red_lights
+    2300024: Archmodels55_14_seats
+    2300026: Archmodels55_14_taillights_silver
+    2300028: Archmodels55_14_Texts
+    2300030: Archmodels55_14_texts_bg
+    2300032: Archmodels55_14_tires
+    2300034: Archmodels55_14_white_lights
+    2300036: Archmodels55_14_yellow
+    3300000: Archmodels55_14_black
+    3300002: Archmodels55_14_black2
+    3300004: Archmodels55_14_carpaint
+    3300006: Archmodels55_14_chrome2
+    3300008: Archmodels55_14_front_details
+    3300010: Archmodels55_14_glass
+    3300012: Archmodels55_14_headlights_glass
+    3300014: Archmodels55_14_headlights_glass 1
+    3300016: Archmodels55_14_lights_black
+    3300018: Archmodels55_14_lights_orange
+    3300020: Archmodels55_14_mirrors
+    3300022: Archmodels55_14_red_lights
+    3300024: Archmodels55_14_seats
+    3300026: Archmodels55_14_taillights_silver
+    3300028: Archmodels55_14_Texts
+    3300030: Archmodels55_14_texts_bg
+    3300032: Archmodels55_14_tires
+    3300034: Archmodels55_14_white_lights
+    3300036: Archmodels55_14_yellow
+    4300000: Archmodels55_14_tires
+    4300002: Archmodels55_14_carpaint
+    4300004: Archmodels55_14_glass
+    4300006: Archmodels55_14_black2
+    4300008: Archmodels55_14_lights_black
+    4300010: Archmodels55_14_headlights_glass
+    4300012: Archmodels55_14_lights_orange
+    4300014: Archmodels55_14_chrome2
+    4300016: Archmodels55_14_front_details
+    4300018: Archmodels55_14_texts_bg
+    4300020: Archmodels55_14_mirrors
+    4300022: Archmodels55_14_seats
+    4300024: Archmodels55_14_taillights_silver
+    4300026: Archmodels55_14_black
+    4300028: Archmodels55_14_white_lights
+    4300030: Archmodels55_14_red_lights
+    4300032: Archmodels55_14_headlights_glass
+    4300034: Archmodels55_14_Texts
+    4300036: Archmodels55_14_yellow
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

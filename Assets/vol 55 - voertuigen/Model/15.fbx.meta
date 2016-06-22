@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 6c268d511f0033d489c2f6e925377044
+timeCreated: 1456905118
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Archmodels55_15_blinkers
+    100004: Archmodels55_15_blinkers_seal
+    100006: Archmodels55_15_bottom
+    100008: Archmodels55_15_carpaint
+    100010: Archmodels55_15_glass
+    100012: Archmodels55_15_headlights
+    100014: Archmodels55_15_interior
+    100016: Archmodels55_15_lights_glass
+    100018: Archmodels55_15_mirrors
+    100020: Archmodels55_15_register_plates
+    100022: Archmodels55_15_rims
+    100024: Archmodels55_15_taillights
+    100026: Archmodels55_15_taillights_reverse
+    100028: Archmodels55_15_taillights_turn
+    100030: Archmodels55_15_tires
+    100032: Archmodels55_15_white_lights
+    100034: Archmodels55_15_wipes
+    400000: //RootNode
+    400002: Archmodels55_15_blinkers
+    400004: Archmodels55_15_blinkers_seal
+    400006: Archmodels55_15_bottom
+    400008: Archmodels55_15_carpaint
+    400010: Archmodels55_15_glass
+    400012: Archmodels55_15_headlights
+    400014: Archmodels55_15_interior
+    400016: Archmodels55_15_lights_glass
+    400018: Archmodels55_15_mirrors
+    400020: Archmodels55_15_register_plates
+    400022: Archmodels55_15_rims
+    400024: Archmodels55_15_taillights
+    400026: Archmodels55_15_taillights_reverse
+    400028: Archmodels55_15_taillights_turn
+    400030: Archmodels55_15_tires
+    400032: Archmodels55_15_white_lights
+    400034: Archmodels55_15_wipes
+    2300000: Archmodels55_15_blinkers
+    2300002: Archmodels55_15_blinkers_seal
+    2300004: Archmodels55_15_bottom
+    2300006: Archmodels55_15_carpaint
+    2300008: Archmodels55_15_glass
+    2300010: Archmodels55_15_headlights
+    2300012: Archmodels55_15_interior
+    2300014: Archmodels55_15_lights_glass
+    2300016: Archmodels55_15_mirrors
+    2300018: Archmodels55_15_register_plates
+    2300020: Archmodels55_15_rims
+    2300022: Archmodels55_15_taillights
+    2300024: Archmodels55_15_taillights_reverse
+    2300026: Archmodels55_15_taillights_turn
+    2300028: Archmodels55_15_tires
+    2300030: Archmodels55_15_white_lights
+    2300032: Archmodels55_15_wipes
+    3300000: Archmodels55_15_blinkers
+    3300002: Archmodels55_15_blinkers_seal
+    3300004: Archmodels55_15_bottom
+    3300006: Archmodels55_15_carpaint
+    3300008: Archmodels55_15_glass
+    3300010: Archmodels55_15_headlights
+    3300012: Archmodels55_15_interior
+    3300014: Archmodels55_15_lights_glass
+    3300016: Archmodels55_15_mirrors
+    3300018: Archmodels55_15_register_plates
+    3300020: Archmodels55_15_rims
+    3300022: Archmodels55_15_taillights
+    3300024: Archmodels55_15_taillights_reverse
+    3300026: Archmodels55_15_taillights_turn
+    3300028: Archmodels55_15_tires
+    3300030: Archmodels55_15_white_lights
+    3300032: Archmodels55_15_wipes
+    4300000: Archmodels55_15_carpaint
+    4300002: Archmodels55_15_bottom
+    4300004: Archmodels55_15_glass
+    4300006: Archmodels55_15_blinkers
+    4300008: Archmodels55_15_blinkers_seal
+    4300010: Archmodels55_15_lights_glass
+    4300012: Archmodels55_15_taillights_turn
+    4300014: Archmodels55_15_white_lights
+    4300016: Archmodels55_15_headlights
+    4300018: Archmodels55_15_wipes
+    4300020: Archmodels55_15_mirrors
+    4300022: Archmodels55_15_taillights_reverse
+    4300024: Archmodels55_15_taillights
+    4300026: Archmodels55_15_rims
+    4300028: Archmodels55_15_tires
+    4300030: Archmodels55_15_interior
+    4300032: Archmodels55_15_register_plates
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

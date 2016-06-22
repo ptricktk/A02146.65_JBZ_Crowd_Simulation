@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 7ad788cec19623145a5d3b0ae8b0594a
+timeCreated: 1456905170
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Archmodels55_06_black
+    100004: Archmodels55_06_black_plastic
+    100006: Archmodels55_06_blinkers
+    100008: Archmodels55_06_carpaint
+    100010: Archmodels55_06_chrome
+    100012: Archmodels55_06_chrome2
+    100014: Archmodels55_06_glass
+    100016: Archmodels55_06_glass_black
+    100018: Archmodels55_06_glass_red
+    100020: Archmodels55_06_glass_white
+    100022: Archmodels55_06_headlight_glass
+    100024: Archmodels55_06_interior
+    100026: Archmodels55_06_interior2
+    100028: Archmodels55_06_mirrors
+    100030: Archmodels55_06_register_plate
+    100032: Archmodels55_06_rims
+    100034: Archmodels55_06_taxi_stand
+    100036: Archmodels55_06_taxi_text
+    100038: Archmodels55_06_tires
+    100040: Archmodels55_06_tires_MeshPart0
+    100042: Archmodels55_06_tires_MeshPart1
+    100044: Archmodels55_06_wipes
+    400000: //RootNode
+    400002: Archmodels55_06_black
+    400004: Archmodels55_06_black_plastic
+    400006: Archmodels55_06_blinkers
+    400008: Archmodels55_06_carpaint
+    400010: Archmodels55_06_chrome
+    400012: Archmodels55_06_chrome2
+    400014: Archmodels55_06_glass
+    400016: Archmodels55_06_glass_black
+    400018: Archmodels55_06_glass_red
+    400020: Archmodels55_06_glass_white
+    400022: Archmodels55_06_headlight_glass
+    400024: Archmodels55_06_interior
+    400026: Archmodels55_06_interior2
+    400028: Archmodels55_06_mirrors
+    400030: Archmodels55_06_register_plate
+    400032: Archmodels55_06_rims
+    400034: Archmodels55_06_taxi_stand
+    400036: Archmodels55_06_taxi_text
+    400038: Archmodels55_06_tires
+    400040: Archmodels55_06_tires_MeshPart0
+    400042: Archmodels55_06_tires_MeshPart1
+    400044: Archmodels55_06_wipes
+    2300000: Archmodels55_06_black
+    2300002: Archmodels55_06_black_plastic
+    2300004: Archmodels55_06_blinkers
+    2300006: Archmodels55_06_carpaint
+    2300008: Archmodels55_06_chrome
+    2300010: Archmodels55_06_chrome2
+    2300012: Archmodels55_06_glass
+    2300014: Archmodels55_06_glass_black
+    2300016: Archmodels55_06_glass_red
+    2300018: Archmodels55_06_glass_white
+    2300020: Archmodels55_06_headlight_glass
+    2300022: Archmodels55_06_interior
+    2300024: Archmodels55_06_interior2
+    2300026: Archmodels55_06_mirrors
+    2300028: Archmodels55_06_register_plate
+    2300030: Archmodels55_06_rims
+    2300032: Archmodels55_06_taxi_stand
+    2300034: Archmodels55_06_taxi_text
+    2300036: Archmodels55_06_tires_MeshPart0
+    2300038: Archmodels55_06_tires_MeshPart1
+    2300040: Archmodels55_06_wipes
+    3300000: Archmodels55_06_black
+    3300002: Archmodels55_06_black_plastic
+    3300004: Archmodels55_06_blinkers
+    3300006: Archmodels55_06_carpaint
+    3300008: Archmodels55_06_chrome
+    3300010: Archmodels55_06_chrome2
+    3300012: Archmodels55_06_glass
+    3300014: Archmodels55_06_glass_black
+    3300016: Archmodels55_06_glass_red
+    3300018: Archmodels55_06_glass_white
+    3300020: Archmodels55_06_headlight_glass
+    3300022: Archmodels55_06_interior
+    3300024: Archmodels55_06_interior2
+    3300026: Archmodels55_06_mirrors
+    3300028: Archmodels55_06_register_plate
+    3300030: Archmodels55_06_rims
+    3300032: Archmodels55_06_taxi_stand
+    3300034: Archmodels55_06_taxi_text
+    3300036: Archmodels55_06_tires_MeshPart0
+    3300038: Archmodels55_06_tires_MeshPart1
+    3300040: Archmodels55_06_wipes
+    4300000: Archmodels55_06_carpaint
+    4300002: Archmodels55_06_black
+    4300004: Archmodels55_06_chrome2
+    4300006: Archmodels55_06_black_plastic
+    4300008: Archmodels55_06_chrome
+    4300010: Archmodels55_06_mirrors
+    4300012: Archmodels55_06_glass_black
+    4300014: Archmodels55_06_rims
+    4300016: Archmodels55_06_tires_MeshPart0
+    4300018: Archmodels55_06_tires_MeshPart1
+    4300020: Archmodels55_06_headlight_glass
+    4300022: Archmodels55_06_blinkers
+    4300024: Archmodels55_06_glass
+    4300026: Archmodels55_06_interior2
+    4300028: Archmodels55_06_interior
+    4300030: Archmodels55_06_wipes
+    4300032: Archmodels55_06_glass_red
+    4300034: Archmodels55_06_glass_white
+    4300036: Archmodels55_06_register_plate
+    4300038: Archmodels55_06_taxi_stand
+    4300040: Archmodels55_06_taxi_text
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
