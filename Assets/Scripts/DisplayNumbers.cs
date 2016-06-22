@@ -12,31 +12,31 @@ public class DisplayNumbers : MonoBehaviour {
     Text startFietsenstalling;
     Text startBushalte;
     Text startParkeergarage;
+    Text startKissAndRide;
 
 
     // Use this for initialization
     void Awake() {
         
         bezoekersHoofdentree = GetComponentsInChildren<Text>()[0];
-        bezoekersDialyse = GetComponentsInChildren<Text>()[1];
-
-        startParkeergarage = GetComponentsInChildren<Text>()[2];
-        startTaxi = GetComponentsInChildren<Text>()[3];
-        startFietsenstalling = GetComponentsInChildren<Text>()[4];
-        startBushalte = GetComponentsInChildren<Text>()[5];
-        startParkeerplaats = GetComponentsInChildren<Text>()[6];
-
+        
+        startParkeergarage = GetComponentsInChildren<Text>()[1];
+        startTaxi = GetComponentsInChildren<Text>()[2];
+        startFietsenstalling = GetComponentsInChildren<Text>()[3];
+        startBushalte = GetComponentsInChildren<Text>()[4];
+        startParkeerplaats = GetComponentsInChildren<Text>()[5];
+        startKissAndRide = GetComponentsInChildren<Text>()[6];
     }
 	
 	// Update is called once per frame
 	void Update () {
-        bezoekersDialyse.text = "Bezoekers Dialyse: " + GameManagerScript.GameManagement.aantalDialyse;
-        bezoekersHoofdentree.text = "Bezoekers Hoofdentree: " + GameManagerScript.GameManagement.aantalEntree;
+        bezoekersHoofdentree.text = "Aantal bezoekers: " + GameManagerScript.GameManagement.aantalEntree;
 
-        startParkeergarage.text = "Uit parkeergarage: " + GameManagerScript.GameManagement.aantalParkeerGarage;
-        startTaxi.text = "Uit taxistandplaats: " + GameManagerScript.GameManagement.aantalTaxi;
-        startFietsenstalling.text = "Uit fietsenstalling: " + GameManagerScript.GameManagement.aantalFiets;
-        startBushalte.text = "Uit bushalte: " + GameManagerScript.GameManagement.aantalBus;
-        startParkeerplaats.text = "Uit parkeerplaats: " + GameManagerScript.GameManagement.aantalParkeerPlaats;
+        startParkeergarage.text = "Parkeergarage: " + GameManagerScript.GameManagement.aantalParkeerGarage;
+        startTaxi.text = "Taxistandplaats: " + GameManagerScript.GameManagement.aantalTaxi;
+        startFietsenstalling.text = "Fietsenstalling: " + GameManagerScript.GameManagement.aantalFiets;
+        startBushalte.text = "Bushalte: " + GameManagerScript.GameManagement.aantalBus;
+        startParkeerplaats.text = "Parkeerplaats: " + GameManagerScript.GameManagement.aantalParkeerPlaats;
+        startKissAndRide.text = "Kiss and Ride: " + GameManagerScript.GameManagement.aantalKissAndRide;
     }
 }

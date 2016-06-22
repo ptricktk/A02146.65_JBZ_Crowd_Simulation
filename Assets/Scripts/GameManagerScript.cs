@@ -50,7 +50,35 @@ public class GameManagerScript : MonoBehaviour {
     void SpawnFixedBezoekers()
     {
             Instantiate(bezoeker, fixedStartPosities[bezoekersCounter].transform.position, fixedStartPosities[bezoekersCounter].transform.rotation);
-            bezoekersCounter++;
+
+        if (fixedStartPosities[bezoekersCounter].name == "OV-halte")
+        {
+            aantalBus += 1;
+        } 
+        else if (fixedStartPosities[bezoekersCounter].name == "Parkeerplaats")
+        {
+            aantalParkeerPlaats += 1;
+        }
+        else if (fixedStartPosities[bezoekersCounter].name == "Fietsenrek")
+        {
+            aantalFiets += 1;
+        }
+        else if (fixedStartPosities[bezoekersCounter].name == "Taxiplaats")
+        {
+            aantalTaxi += 1;
+        }
+        else if (fixedStartPosities[bezoekersCounter].name == "Parkeergarage")
+        {
+            aantalParkeerGarage += 1;
+        }
+        else if (fixedStartPosities[bezoekersCounter].name == "KissAndRide")
+        {
+            aantalKissAndRide += 1;
+        }
+        bezoekersCounter++;
+
+        
+
 
         if (bezoekersCounter == fixedStartPosities.Length)
         {
