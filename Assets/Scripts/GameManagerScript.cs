@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour {
 
@@ -9,6 +10,13 @@ public class GameManagerScript : MonoBehaviour {
 
     public int aantalDialyse = 0;
     public int aantalEntree = 0;
+
+    public int initialBezoekerParkeerGarage = 0;
+    public int initialBezoekerTaxi = 0;
+    public int initialBezoekerFiets = 0;
+    public int initialBezoekerBus = 0;
+    public int initialBezoekerParkeerPlaats = 0;
+    public int initialBezoekerKissAndRide = 0;
 
     public int aantalParkeerGarage = 0;
     public int aantalTaxi = 0;
@@ -38,47 +46,28 @@ public class GameManagerScript : MonoBehaviour {
 
 
         DontDestroyOnLoad(gameObject);
+    }
+
+    void OnLevelWasLoaded(int level)
+    {
+        if (level == 1)
+            StartBezoekersFlow();
+    }
+
+    public void StartBezoekersFlow()
+    {
+
         StartPosities = GameObject.FindGameObjectsWithTag("StartLocatie");
-        
         //InvokeRepeating("SpawnRandomBezoekers", 2.0f, 1.0f);
 
         CreateBezoekersFlow();
         InvokeRepeating("SpawnFixedBezoekers", 2.0f, 1.0f);
-
     }
 
     void SpawnFixedBezoekers()
     {
             Instantiate(bezoeker, fixedStartPosities[bezoekersCounter].transform.position, fixedStartPosities[bezoekersCounter].transform.rotation);
-
-        if (fixedStartPosities[bezoekersCounter].name == "OV-halte")
-        {
-            aantalBus += 1;
-        } 
-        else if (fixedStartPosities[bezoekersCounter].name == "Parkeerplaats")
-        {
-            aantalParkeerPlaats += 1;
-        }
-        else if (fixedStartPosities[bezoekersCounter].name == "Fietsenrek")
-        {
-            aantalFiets += 1;
-        }
-        else if (fixedStartPosities[bezoekersCounter].name == "Taxiplaats")
-        {
-            aantalTaxi += 1;
-        }
-        else if (fixedStartPosities[bezoekersCounter].name == "Parkeergarage")
-        {
-            aantalParkeerGarage += 1;
-        }
-        else if (fixedStartPosities[bezoekersCounter].name == "KissAndRide")
-        {
-            aantalKissAndRide += 1;
-        }
-        bezoekersCounter++;
-
-        
-
+            bezoekersCounter++;
 
         if (bezoekersCounter == fixedStartPosities.Length)
         {
@@ -111,12 +100,12 @@ public class GameManagerScript : MonoBehaviour {
 
     void CreateBezoekersFlow()
     {
-        int bezoekersAantalKissAndRide = 1;
-        int bezoekersAantalOV = 2;
-        int bezoekersAantalFiets = 3;
-        int bezoekersAantalParkeerplaats = 10;
-        int bezoekersAantalTaxi = 2;
-        int bezoekersAantalParkeergarage = 20;
+        int bezoekersAantalKissAndRide = initialBezoekerKissAndRide;
+        int bezoekersAantalOV = initialBezoekerBus;
+        int bezoekersAantalFiets = initialBezoekerFiets;
+        int bezoekersAantalParkeerplaats = initialBezoekerParkeerPlaats;
+        int bezoekersAantalTaxi = initialBezoekerTaxi;
+        int bezoekersAantalParkeergarage = initialBezoekerParkeerGarage;
 
         int totaalAantalFixedBezoekers = (bezoekersAantalKissAndRide + bezoekersAantalOV + bezoekersAantalFiets + bezoekersAantalParkeerplaats + bezoekersAantalTaxi + bezoekersAantalParkeergarage);
         int arrayCounter = 0;

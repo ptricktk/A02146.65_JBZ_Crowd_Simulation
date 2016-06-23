@@ -24,26 +24,32 @@ public class AgentScript : MonoBehaviour {
         if (GetStartBezoeker(gameObject.transform) == "OV-halte")
         {
             agent.GetComponentInChildren<Renderer>().material = ov;
+            GameManagerScript.GameManagement.aantalBus += 1;
         }
         else if (GetStartBezoeker(gameObject.transform) == "Parkeerplaats")
         {
             agent.GetComponentInChildren<Renderer>().material = parkeerplaats;
+            GameManagerScript.GameManagement.aantalParkeerPlaats += 1;
         }
         else if (GetStartBezoeker(gameObject.transform) == "Fietsenrek")
         {
             agent.GetComponentInChildren<Renderer>().material = fiets;
+            GameManagerScript.GameManagement.aantalFiets += 1;
         }
         else if (GetStartBezoeker(gameObject.transform) == "Taxiplaats")
         {
             agent.GetComponentInChildren<Renderer>().material = taxi;
+            GameManagerScript.GameManagement.aantalTaxi += 1;
         }
         else if (GetStartBezoeker(gameObject.transform) == "Parkeergarage")
         {
             agent.GetComponentInChildren<Renderer>().material = parkeergarage;
+            GameManagerScript.GameManagement.aantalParkeerGarage += 1;
         }
         else if (GetStartBezoeker(gameObject.transform) == "KissAndRide")
         {
             agent.GetComponentInChildren<Renderer>().material = kissenride;
+            GameManagerScript.GameManagement.aantalKissAndRide += 1;
         }
 
 
