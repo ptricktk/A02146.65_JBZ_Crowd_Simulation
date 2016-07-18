@@ -4232,11 +4232,6 @@ Note: Every time you call the method with tolerance specified, a new instance of
         <para>AssetBundles let you stream additional assets via the WWW class and instantiate them at runtime. AssetBundles are created via BuildPipeline.BuildAssetBundle.</para>
       </summary>
     </member>
-    <member name="P:UnityEngine.AssetBundle.isStreamedSceneAssetBundle">
-      <summary>
-        <para>Return true if the AssetBundle is a streamed scene AssetBundle.</para>
-      </summary>
-    </member>
     <member name="P:UnityEngine.AssetBundle.mainAsset">
       <summary>
         <para>Main asset that was supplied when building the asset bundle (Read Only).</para>
@@ -7183,11 +7178,6 @@ For this reason, we also provide the read-only property actualRenderingPath whic
     <member name="P:UnityEngine.Canvas.renderOrder">
       <summary>
         <para>The render order in which the canvas is being emitted to the scene.</para>
-      </summary>
-    </member>
-    <member name="P:UnityEngine.Canvas.rootCanvas">
-      <summary>
-        <para>Returns the Canvas closest to root, by checking through each parent and returning the last canvas found. If no other canvas is found then the canvas will return itself.</para>
       </summary>
     </member>
     <member name="P:UnityEngine.Canvas.scaleFactor">

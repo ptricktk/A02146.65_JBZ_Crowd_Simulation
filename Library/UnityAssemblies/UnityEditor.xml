@@ -16042,11 +16042,6 @@ To force a reload of the mask, simply set  ModelImporterClipAnimation.maskSource
         <para>Xbox 360 ImageXex override configuration file path.</para>
       </summary>
     </member>
-    <member name="P:UnityEditor.PlayerSettings.xboxOneMonoLoggingLevel">
-      <summary>
-        <para>Controls the mono trace log in development builds. This can help in tracking down AOT and JIT related problems on the Xbox One.</para>
-      </summary>
-    </member>
     <member name="P:UnityEditor.PlayerSettings.xboxSpaFilePath">
       <summary>
         <para>Xbox 360 SPA file path.</para>
@@ -17508,11 +17503,6 @@ To force a reload of the mask, simply set  ModelImporterClipAnimation.maskSource
     <member name="P:UnityEditor.PlayerSettings.XboxOne.EnablePIXSampling">
       <summary>
         <para>Enable sampling profiler in development builds to provide better profile markers for PIX, including Start and Update markers for script behaviors.</para>
-      </summary>
-    </member>
-    <member name="P:UnityEditor.PlayerSettings.XboxOne.EnableRenderThreadRunsJobs">
-      <summary>
-        <para>Turns on the ability for the render thread to service the normal general purpose job queue while waiting for rendering related work. This is considered an advanced feature and users should only enable if they have a good understanding of their pix profile.</para>
       </summary>
     </member>
     <member name="P:UnityEditor.PlayerSettings.XboxOne.EnableVariableGPU">
